@@ -6,7 +6,7 @@ export const Blogs = () => {
       <div className="blogs-head">
         <span style={{ color: "#7421FC", fontWeight: "600" }}>BLOGS</span>
         <h2 style={{ color: "#19154E" }}>
-          Insights and news from Novality team.
+          Insights and news from Novality team..
         </h2>
         <p
           style={{ color: "#5B5E76", fontFamily: "manrope", fontWeight: "500" }}
