@@ -1,0 +1,433 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.home {
+  background-image: url("/src/assets/bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 788px;
+  width: 1600px;
+}
+.novality {
+  width: 81px;
+  height: 24px;
+  font-family: manrope;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.header {
+  width: 1049px;
+  height: 60px;
+  position: absolute;
+  top: 30px;
+  left: 295px;
+  padding: 3px, 5px, 3px, 5px;
+  gap: 10px;
+}
+.head {
+  width: 1049px;
+  height: 54px;
+  background-color: #212129;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+.companyLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+  gap: 10px;
+}
+.logo {
+  width: 20px;
+  height: 21px;
+  font-size: 20px;
+}
+.rotate {
+  width: 11.2px;
+  height: 13.85px;
+  position: relative;
+  top: 12.13px;
+  left: 13.16px;
+  color: #7421fc;
+  rotate: -180deg;
+}
+.noRotate {
+  position: relative;
+  width: 11.2px;
+  height: 13.04px;
+  left: 7.25px;
+  bottom: 15px;
+  rotation: 0°;
+  color: #7421fc;
+}
+.navs {
+  width: 711px;
+  height: 48px;
+}
+.nav {
+  width: 98px;
+  height: 49px;
+  border-radius: 10px;
+  padding: 15px;
+  gap: 10px;
+  font-family: manrope;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.2px;
+  text-align: center;
+  color: #ffff;
+}
+/* Main in home */
+
+.solo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 843px;
+  height: 286px;
+  position: relative;
+  top: 281px;
+  left: 380.5px;
+  gap: 28px;
+}
+
+/*Our Service */
+.our-service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 1139px;
+  height: 820px;
+  position: absolute;
+  top: 878px;
+  left: 240px;
+  gap: 75px;
+}
+.headings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 131px;
+  width: 678px;
+}
+
+.services {
+  width: 1139px;
+  height: 614px;
+  gap: 20px;
+}
+
+.web-desoghn-services {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  height: 297px;
+  width: 1139px;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 366.33px;
+  height: 297px;
+  border-radius: 20px;
+  columns: #ffff;
+  border: 1px solid #000000 7.84%;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
+}
+/* Projects */
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 1440px;
+  height: 500px;
+  top: 1852px;
+  left: 80px;
+  gap: 75px;
+  color: #19154e;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 343;
+  gap: 20px;
+}
+/* Case Study */
+.case-study {
+  width: 1440px;
+  height: 382px;
+  position: absolute;
+  top: 2506px;
+  padding: 0px, 150px, 0px, 150px;
+  gap: 10px;
+}
+
+.container {
+  width: 1140px;
+  height: 382px;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 220px;
+}
+
+.studydirection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Testimonials */
+
+.testiomonials {
+  width: 1600px;
+  height: 450px;
+  position: relative;
+  top: 2200px;
+  padding: 0px, 150px, 0px, 150px;
+  gap: 10px;
+  color: #000000;
+  background-color: #ece1ff;
+  overflow: hidden;
+}
+
+.clientSay {
+  position: absolute;
+  top: 120px;
+  left: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 454px;
+  height: 219px;
+  gap: 15px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.review {
+  display: flex;
+  flex-direction: row;
+  height: 382px;
+  width: 930px;
+  position: absolute;
+  top: 40px;
+  left: 690px;
+}
+/* Pricing Plan */
+.my-plan {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 1139px;
+  height: 853px;
+  position: absolute;
+  top: 3502px;
+  left: 251px;
+  gap: 38px;
+}
+
+.plan-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 85px;
+  width: 155px;
+  gap: 10px;
+}
+
+.plans {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 1139px;
+  height: 732px;
+  gap: 20px;
+}
+
+.planCard {
+  height: 612px;
+  width: 346.33px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.starter {
+  text-align: left;
+  height: 531px;
+  width: 300px;
+  position: relative;
+  left: 30px;
+  top: 30px;
+  right: 10px;
+}
+
+.starter-info {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 35px;
+  color: #19154e;
+}
+
+/* Blogs */
+.my-blogs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1139px;
+  height: 1533px;
+  position: absolute;
+  top: 4330px;
+  left: 245px;
+  gap: 60 px;
+}
+
+.blogs {
+  width: 1139px;
+  height: 1196px;
+  gap: 20px;
+}
+
+.blogs-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 642px;
+  height: 268px;
+  gap: 10px;
+}
+
+.blog {
+  display: flex;
+  flex-direction: row;
+  width: 1139px;
+  height: 588px;
+  gap: 15px;
+}
+
+.blog-info-container {
+  width: 559px;
+  height: 160px;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 20px 20px;
+}
+
+.blog-info {
+  width: 479.5px;
+  height: 102px;
+  gap: 10px;
+  position: relative;
+  left: 30px;
+  top: 40px;
+}
+
+/* Contact */
+.contactUs {
+  width: 1500px;
+  height: 260px;
+  position: absolute;
+  top: 5790px;
+  padding: 60px 0px 90px 100px;
+  gap: 10px;
+  background-color: #7421fc;
+}
+.contactContainer {
+  display: flex;
+  position: relative;
+  left: 450px;
+  top: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 472px;
+  height: 210px;
+  gap: 10px;
+}
+/* Footer */
+.footer {
+  width: 1500px;
+  height: 330px;
+  position: absolute;
+  top: 6160px;
+  padding: 60px 0px 100px 100px;
+  gap: 10px;
+  background-color: #451297;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 1210px;
+  height: 300px;
+  position: relative;
+  top: 76px;
+  left: 140px;
+}
+.footer-novality {
+  width: 234px;
+  height: 193px;
+  gap: 22px;
+}
+.quick-links {
+  width: 128px;
+  height: 270px;
+  gap: 40px;
+}
+.sevices {
+  width: 123px;
+  height: 189px;
+  gap: 20px;
+}
+.contact-info {
+  width: 279px;
+  height: 108px;
+  gap: 20px;
+}
+
+.footer-companyLogo {
+  display: flex;
+  height: 32px;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 10px;
+  gap: 10px;
+}
+
+.marketer-info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
