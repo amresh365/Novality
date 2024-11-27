@@ -13,7 +13,7 @@ export const Header = () => {
           <p className="novality">Novality</p>
         </div>
 
-        {/*Navs links*/}
+        {/*Navs linkss*/}
         <div className="navs">
           <a href="" className="nav">
             Services
