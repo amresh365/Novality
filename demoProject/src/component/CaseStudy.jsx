@@ -55,7 +55,7 @@ export const CaseStudy = () => {
             height: "382px",
             width: "454px",
             gap: "30px",
-            backgroundImage: `url("src/assets/caseStudy.png")`,
+            backgroundImage: `url("public/assets/caseStudy.png")`,
             backgroundSize: "cover",
           }}
         ></div>

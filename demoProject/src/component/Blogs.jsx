@@ -20,7 +20,7 @@ export const Blogs = () => {
         <div className="blog">
           <div>
             <img
-              src="src/assets/blog1.jpeg"
+              src="public/assets/blog1.jpeg"
               alt="blog"
               style={{
                 height: "400px",
@@ -40,7 +40,7 @@ export const Blogs = () => {
           </div>
           <div>
             <img
-              src="src/assets/blog1.jpeg"
+              src="public/assets/blog1.jpeg"
               alt="blog"
               style={{
                 height: "400px",
@@ -60,7 +60,7 @@ export const Blogs = () => {
         <div className="blog">
           <div>
             <img
-              src="src/assets/blog3.jpeg"
+              src="public/assets/blog3.jpeg"
               alt="blog"
               style={{
                 height: "400px",
@@ -80,7 +80,7 @@ export const Blogs = () => {
           </div>
           <div>
             <img
-              src="src/assets/blog3.jpeg"
+              src="public/assets/blog3.jpeg"
               alt="blog"
               style={{
                 height: "400px",

@@ -65,7 +65,7 @@ export const Testimonials = () => {
               style={{ height: "50px", width: "50px", color: "#ffff" }}
             >
               <img
-                src="/src/assets/im.jpeg"
+                src="/public/assets/im.jpeg"
                 alt=""
                 style={{
                   width: "286.33",
@@ -129,7 +129,7 @@ export const Testimonials = () => {
               style={{ height: "50px", width: "50px", color: "#ffff" }}
             >
               <img
-                src="/src/assets/im.jpeg"
+                src="/public/assets/im.jpeg"
                 alt=""
                 style={{
                   width: "286.33",

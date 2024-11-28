@@ -37,7 +37,7 @@ export const Myproject = () => {
             height: "343px",
             width: "475px",
             borderRadius: "20px",
-            background: `linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5)), url("src/assets/1img.png")`,
+            background: `linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5)), url("public/assets/1img.png")`,
             backgroundSize: "cover",
           }}
         ></div>
@@ -46,11 +46,11 @@ export const Myproject = () => {
             height: "343px",
             width: "475px",
             borderRadius: "20px",
-            backgroundImage: `url("src/assets/1img.png")`,
+            backgroundImage: `url("public/assets/1img.png")`,
           }}
         ></div>
         <img
-          src="/src/assets/3img.png"
+          src="/public/assets/3img.png"
           alt="project3"
           style={{
             height: "343px",
