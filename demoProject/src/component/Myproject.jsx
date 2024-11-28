@@ -46,7 +46,7 @@ export const Myproject = () => {
             height: "343px",
             width: "475px",
             borderRadius: "20px",
-            backgroundImage: `url("public/assets/1img.png")`,
+            backgroundImage: `url("/assets/1img.png")`,
           }}
         ></div>
         <img
